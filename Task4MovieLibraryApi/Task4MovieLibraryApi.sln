@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32526.322
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task4MovieLibraryApi", "Task4MovieLibraryApi\Task4MovieLibraryApi.csproj", "{E3C29A34-A3BD-4FA5-B85D-87A03E3F1968}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Task4MovieLibraryApi", "Task4MovieLibraryApi\Task4MovieLibraryApi.csproj", "{E3C29A34-A3BD-4FA5-B85D-87A03E3F1968}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess.EFCore", "DataAccess.EFCore\DataAccess.EFCore.csproj", "{DC2A5D72-F83A-4D0E-B432-67D663B7D488}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{3552CE34-3A46-4F00-B779-F12E2C1E0948}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{E3C29A34-A3BD-4FA5-B85D-87A03E3F1968}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E3C29A34-A3BD-4FA5-B85D-87A03E3F1968}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E3C29A34-A3BD-4FA5-B85D-87A03E3F1968}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC2A5D72-F83A-4D0E-B432-67D663B7D488}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC2A5D72-F83A-4D0E-B432-67D663B7D488}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC2A5D72-F83A-4D0E-B432-67D663B7D488}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC2A5D72-F83A-4D0E-B432-67D663B7D488}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3552CE34-3A46-4F00-B779-F12E2C1E0948}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3552CE34-3A46-4F00-B779-F12E2C1E0948}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3552CE34-3A46-4F00-B779-F12E2C1E0948}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3552CE34-3A46-4F00-B779-F12E2C1E0948}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
