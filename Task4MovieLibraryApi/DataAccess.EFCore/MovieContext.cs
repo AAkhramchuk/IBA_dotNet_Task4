@@ -1,16 +1,18 @@
 ﻿using Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 
-namespace Task4MovieLibraryApi
+namespace DataAccess.EFCore
 {
     /// <summary>
-    /// Movie data context class
+    /// Movie data context
     /// </summary>
     public class MovieContext : DbContext
     {
         public MovieContext() : base() { }
 
         public MovieContext(DbContextOptions<MovieContext> options) : base(options) { }
+
+        public MovieContext? GetMovieContext { get; }
 
         /// <summary>
         /// Used to query and save Movie instances

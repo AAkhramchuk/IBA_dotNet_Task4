@@ -6,7 +6,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 namespace Domain.Entities
 {
     /// <summary>
-    /// Model Movie
+    /// Movie data model
     /// </summary>
     [Table("Movie")]
     public class Movie
